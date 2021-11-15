@@ -1,0 +1,91 @@
+fichier de test - ne pas modifier quoi que ce soit
+//commentaire
+
+//tests sur les balles
+    //objets uniques
+        //constructeur normal
+
+            balle(1.1,2.2,3.3,4.4,5.5,7777)
+            balle(1,2,3,4,5,6)
+            balle(-1.1,-2.2,-3.3,-4.4,-5.5,-6.6)
+            balle ( 1.1, 2.2 , 3.3, 4.4 , 5.5, 6.6)
+
+        //constructeur réduit
+            balle(1.1,7777)
+            balle(1,2)
+            balle(-1.1,-2.2)
+            balle( 1.1 , 2.2 )
+
+        //constructeur par défaut
+            balle()
+            balle  (   )
+
+
+    //tableaux d'objets                    attention 1 + i doit être écrit 1+ 1i   et attention au 1+-2i, qui veut dire 1-2i. Il est nécessaire d'écrire de cette manière
+        //tableau 1D et x variant selon i
+
+            balle[10](1.1+2.2i,3.3,4.4,5.5,6.6,7777)
+            balle[10](1+2i,2,3,4,5,6)
+            balle[10](-1+-2i,-1,-1,-1,-1,-1)
+            balle  [  10  ]  (  1  +   2 i   ,  1  ,  1  ,   1   ,   1  ,  1  )
+            balle[1](1.1+2.2i,3.3,4.4,5.5,6.6,7.7)
+
+        //tableau 1D et y variant selon i
+
+            balle[10](3.3,1.1+2.2i,4.4,5.5,6.6,7777)
+            balle[10](3,1+2i,4,5,6,7)
+            balle[10](-3.3,-1.1+-2.2i,-4.4,-5.5,-6.6,-7777)
+            balle   [   10   ]    (   3.3   ,  1.1  +  2.2 i  ,  4.4  ,  5.5  , 6.6 ,  7777 )
+            balle[1](3.3,1.1+2.2i,4.4,5.5,6.6,7777)
+
+        //tableau 2D, x variant selon i et y variant selon j
+            balle[5][5](1.5+3.5i,1.5+2.5j,1.3,1.4,1.5,1.9)
+            balle[5][5](1+3i,1+2j,1,1,1,1)
+            balle[5][5](-1.5+-3.5i,-1.5+-2.5j,-1.3,-1.4,-1.5,-1.9)
+            balle   [ 5 ] [ 5 ] ( 1.5 + 3.5 i , 1.5 + 2.5 j ,1.3 , 1.4 , 1.5 , 1.9 )
+            balle[1][1](1.5+3.5i,1.5+2.5j,1.3,1.4,1.5,1.9)
+
+
+//tests sur les briques  --> structure du constructeur: brique(P1.x, P1.y, longueur, largeur, type de brique, type de surface)  --> n'existe pas comme constructeur réel c++ dans les fichiers
+// on ne testera pas absolument tous les cas (càd pour chaque type de brique et de surface) pour éviter une complexité croissante, et au vu de l'indépendance de ces données entre elles
+
+
+
+    //type de brique possible
+        brique(0,0,0,0, cassable, normale)
+        brique(0,0,0,0, incassable, normale)
+        brique(0,0,0,0, cassable, dure)
+        brique(0,0,0,0, cassable, tueuse)
+        brique(0,0,0,0, cassable, molle)
+
+
+    //Données autres (flottants)
+        brique(100,100,100,100, cassable, normale)
+        brique(-100,-100,-100,-100, cassable, normale)
+        brique(1.1,2.2,3.3,4.4, cassable, normale)
+        brique     (     100  ,  100 ,   100  ,  100 ,   cassable  ,  normale  )
+
+
+
+//tests sur les raquettes   --> structure du constructeur:  raquette(P1.x, P1.y, longueur, largeur)  --> n'existe pas comme constructeur réel c++ dans les fichiers
+
+
+    raquette(1.2,2.2,3.2,48.2) //test normal
+    raquette(1,2,3,4)    //test avec des entiers
+    raquette(-1,-2,-3.3,-4.4)    //test avec des négatifs
+    raquette  (  -1  , 2 ,  -3.3  , 4.4  ) //test avec des espaces
+
+
+//tests sur la constante nombre de meilleurs scores
+
+    nbMeilleurScore = 11  //test normal
+    nbMeilleurScore    =    2  //test avec des espaces
+
+
+
+
+
+
+
+
+

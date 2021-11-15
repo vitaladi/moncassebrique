@@ -1,0 +1,35 @@
+Fichier de données // ne pas supprimer cette entête
+
+
+balle(1,1,0,5,1,1)
+raquette(0,0,2,1)
+nbMeilleurScore = 10   // nbre de meilleurs scores enregistrés
+
+
+
+
+
+//murs
+brique(-20,40,-18,0, incassable, normale)  // côté gauche
+brique(20,40,18,0, incassable, normale)   //côté droit
+brique(-20,40,20,38, incassable, normale)  //côté supérieur
+
+
+// briques à détruire  (une ligne par exemple)
+
+
+brique(-15,10,-10,7, cassable, normale)
+brique(-10,10,-5,7, cassable, normale)
+brique(-5,10,-0,7, cassable, normale)
+brique(0,10,-5,7, cassable, normale)
+brique(-5,10,-10,7, cassable, normale)
+brique(-10,10,-15,7, cassable, normale)          // à noter que j'aurais voulu pouvoir instancier des tableaux paramètrables de briques, ce que j'ai réussi sur données (voir tests unitaires)
+
+
+
+// autres briques possibles
+
+
+brique(-5,15,-0,12, cassable, dure)
+brique(-5,15,-0,12, cassable, molle)
+brique(-5,15,-0,12, cassable, tueuse)

@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\joueur.cpp
+	"joueur.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\joueur.h
+	<iostream>
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\point.cpp
+	"Point.h"
+
+1609854029 c:\users\arnaud\desktop\codeprojetprog\point.h
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\rectangle.cpp
+	"Rectangle.h"
+
+1609854029 c:\users\arnaud\desktop\codeprojetprog\rectangle.h
+	"Point.h"
+
+1609854818 source:c:\users\arnaud\desktop\codeprojetprog\brique.cpp
+	"brique.h"
+
+1609854029 c:\users\arnaud\desktop\codeprojetprog\brique.h
+	<memory>
+	"Rectangle.h"
+	"surface.h"
+	"typeBrique.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\surface.h
+
+1609857563 c:\users\arnaud\desktop\codeprojetprog\balle.h
+	"surface.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\typebrique.h
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\surface.cpp
+	"surface.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\surfacedure.cpp
+	"surfaceDure.h"
+	"balle.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\surfacedure.h
+	"surface.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\surfacemolle.cpp
+	"surfaceMolle.h"
+	"balle.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\surfacemolle.h
+	"surface.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\surfacenormale.cpp
+	"surfaceNormale.h"
+	"balle.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\surfacenormale.h
+	"surface.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\surfacetueuse.cpp
+	"surfaceTueuse.h"
+	"balle.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\surfacetueuse.h
+	"surface.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\testbrique.cpp
+	"doctest.h"
+	"brique.h"
+	"surfaceDure.h"
+	"surfaceNormale.h"
+	"surfaceMolle.h"
+	"surfaceTueuse.h"
+	"typeBriqueCassable.h"
+	"typeBriqueIncassable.h"
+
+1609854029 c:\users\arnaud\desktop\codeprojetprog\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<Windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\typebriquecassable.h
+	"typeBrique.h"
+	"brique.h"
+
+1609854030 c:\users\arnaud\desktop\codeprojetprog\typebriqueincassable.h
+	"typeBrique.h"
+	"brique.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\testjoueur.cpp
+	"doctest.h"
+	"joueur.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\testmain.cpp
+	"doctest.h"
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\testpoint.cpp
+	"doctest.h"
+	"Point.h"
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\testrectangle.cpp
+	"doctest.h"
+	"Rectangle.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\typebrique.cpp
+	"typeBrique.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\typebriquecassable.cpp
+	"typeBriqueCassable.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\typebriqueincassable.cpp
+	"typeBriqueIncassable.h"
+
+1609857536 source:c:\users\arnaud\desktop\codeprojetprog\balle.cpp
+	"balle.h"
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\balletest.cpp
+	"balle.h"
+	"doctest.h"
+
+1609854029 source:c:\users\arnaud\desktop\codeprojetprog\raquette.cpp
+	"Raquette.h"
+	"Rectangle.h"
+	"Point.h"
+
+1609854029 c:\users\arnaud\desktop\codeprojetprog\raquette.h
+	"Rectangle.h"
+	"Point.h"
+
+1609854030 source:c:\users\arnaud\desktop\codeprojetprog\testraquette.cpp
+	"doctest.h"
+	"raquette.h"
+	"Rectangle.h"
+	"Point.h"
+
+1609855461 source:c:\users\arnaud\desktop\codeprojetprog\donnees.cpp
+	"donnees.h"
+	<memory>
+
+1609855100 c:\users\arnaud\desktop\codeprojetprog\donnees.h
+	<iostream>
+	<fstream>
+	<regex>
+	<string>
+	<stdlib.h>
+	"balle.h"
+	"brique.h"
+	"Rectangle.h"
+	"Point.h"
+	"surfaceNormale.h"
+	"typeBriqueCassable.h"
+	"Raquette.h"
+
+1608723549 source:c:\users\arnaud\desktop\codeprojetprog\meilleursscore.cpp
+	"meilleursScore.h"
+
+1608723845 c:\users\arnaud\desktop\codeprojetprog\meilleursscore.h
+	"joueur.h"
+	<vector>
+	<memory>
+	<fstream>
+	<iostream>
+
+1609854899 source:c:\users\arnaud\desktop\codeprojetprog\testdonnees.cpp
+	"donnees.h"
+	"doctest.h"
+
+1608723293 source:c:\users\arnaud\desktop\codeprojetprog\testmeilleursscore.cpp
+	"doctest.h"
+	"meilleursScore.h"
+
+1609853893 source:c:\users\arnaud\desktop\codeprojetprog\winbgi.cpp
+	<windows.h>
+	<stddef.h>
+	<stdio.h>
+	<math.h>
+	"graphics.h"
+
+1609853892 c:\users\arnaud\desktop\codeprojetprog\graphics.h
+

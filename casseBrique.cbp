@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="casseBrique" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/casseBrique" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/casseBrique" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Interface.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="Raquette.cpp" />
+		<Unit filename="Raquette.h" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.h" />
+		<Unit filename="TestPoint.cpp" />
+		<Unit filename="TestRectangle.cpp" />
+		<Unit filename="balle.cpp" />
+		<Unit filename="balle.h" />
+		<Unit filename="balletest.cpp" />
+		<Unit filename="brique.cpp" />
+		<Unit filename="brique.h" />
+		<Unit filename="doctest.h" />
+		<Unit filename="donnees.cpp" />
+		<Unit filename="donnees.h" />
+		<Unit filename="graphics.h" />
+		<Unit filename="joueur.cpp" />
+		<Unit filename="joueur.h" />
+		<Unit filename="meilleursScore.cpp" />
+		<Unit filename="meilleursScore.h" />
+		<Unit filename="surface.cpp" />
+		<Unit filename="surface.h" />
+		<Unit filename="surfaceDure.cpp" />
+		<Unit filename="surfaceDure.h" />
+		<Unit filename="surfaceMolle.cpp" />
+		<Unit filename="surfaceMolle.h" />
+		<Unit filename="surfaceNormale.cpp" />
+		<Unit filename="surfaceNormale.h" />
+		<Unit filename="surfaceTueuse.cpp" />
+		<Unit filename="surfaceTueuse.h" />
+		<Unit filename="testMeilleursScore.cpp" />
+		<Unit filename="testRaquette.cpp" />
+		<Unit filename="testbrique.cpp" />
+		<Unit filename="testdonnees.cpp" />
+		<Unit filename="testjoueur.cpp" />
+		<Unit filename="testmain.cpp" />
+		<Unit filename="typeBrique.cpp" />
+		<Unit filename="typeBrique.h" />
+		<Unit filename="typeBriqueCassable.cpp" />
+		<Unit filename="typeBriqueCassable.h" />
+		<Unit filename="typeBriqueIncassable.cpp" />
+		<Unit filename="typeBriqueIncassable.h" />
+		<Unit filename="winbgi.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
